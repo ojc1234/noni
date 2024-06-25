@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Greeting</title>
+
+</head>
+
+<body>
+    <script th:inline="javascript">
+    </script>
+    <ul>
+        <li><a th:href="@{/(name=${name[0]})}" th:text="${name[0]}"></a></li>
+        <li><a th:href="@{/(name=${name[1]})}" th:text="${name[1]}"></a></li>
+        <li><a th:href="@{/(name=${name[2]})}" th:text="${name[2]}"></a></li>
+        <li><a th:href="@{/(name=${name[3]})}" th:text="${name[3]}"></a></li>
+        <li><a th:href="@{/(name=${name[4]})}" th:text="${name[4]}"></a></li>
+        <li><a th:href="@{/(name=${name[5]})}" th:text="${name[5]}"></a></li>
+        <li><a th:href="@{/(name=${name[6]})}" th:text="${name[6]}"></a></li>
+        <li><a th:href="@{/(name=${name[7]})}" th:text="${name[7]}"></a></li>
+        <li><a th:href="@{/(name=${name[8]})}" th:text="${name[8]}"></a></li>
+        <li><a th:href="@{/(name=${name[9]})}" th:text="${name[9]}"></a></li>
+    </ul>
+
+</body>
+
+</html>
