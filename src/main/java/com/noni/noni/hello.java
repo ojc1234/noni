@@ -21,4 +21,3 @@ public class hello {
         return now.toString();
     }
 }
-
